@@ -18,7 +18,7 @@ const About = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              className="inline-flex text-white bg-purple-800 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
               Trabaja conmigo
             </a>
             <a
@@ -32,7 +32,7 @@ const About = () => {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="/FotoSaid.png"
+            src="/fig.svg"
           />
         </div>
       </div>

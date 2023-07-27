@@ -3,7 +3,7 @@ const Projects = () => {
 
      return (
 
-        <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+        <section id="projects" className="text-gray-400 bg-[url('/circle.svg')] bg-cover bg-no-repeat bg-center body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           
@@ -20,13 +20,13 @@ const Projects = () => {
               href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              <div className="flex relative ">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className="absolute inset-0 w-full h-full object-cover object-center rounded-md"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 rounded-md border-indigo-800 bg-indigo-950 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
