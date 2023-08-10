@@ -44,8 +44,8 @@ const Contact = () => {
                     DIRECCIÓN
                   </h2>
                   <p className="mt-1">
-                    Calle Cerco del Ejido. <br />
-                    Rodeo, Durango MX 35760
+                     <br />
+                    
                   </p>
                 </div>
                 <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
