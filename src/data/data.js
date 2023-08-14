@@ -29,7 +29,7 @@
       description:
         "Aplicacion del tiempo el cual muestra el clima de la ciudad en la que te encuentras, cuenta con un boton que cambia los grados centigrados a farenheit",
       image: "/weather.png",
-      link: "https://users-app-sm.netlify.app/",
+      link: "https://weather-app-sma.netlify.app/",
     },
     {
       title: "Rick and morty",
