@@ -22,6 +22,12 @@ const Navbar = () => {
           </a>
         </nav>
         <a
+          href="https://drive.google.com/file/d/1rIUoI1Z4_eO1Vt1JLhpBcJLAidxZH8r3/view?usp=sharing"
+          className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 focus:outline-none hover:bg-purple-400 rounded text-white mt-4 md:mt-0">
+          Descargar CV
+          < Icon icon="ion:cloud-download"className="w-4 h-4 ml-1" />
+        </a>
+        <a
           href="#contact"
           className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 focus:outline-none hover:bg-purple-400 rounded text-white mt-4 md:mt-0">
           ¡Contactame!
